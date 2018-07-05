@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">InventoryAppStage2</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">No items in stock...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+    <!-- Price text -->
+    <string name="price_text">Price/$: </string>
+
+    <!-- Quantity text -->
+    <string name="quantity_text">Quantity:    </string>
+
+    <!-- Text Sell Button -->
+    <string name="sell_button">Sell</string>
+
+    <!-- Product description titles -->
+    <string name="product_overview">Product</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="quantity_overview">Quantity</string>
+    <string name="product_quantity_hint">Quantity</string>
+    <string name="price_overview">Price</string>
+    <string name="product_price_hint">Price</string>
+
+    <!-- Supplier description titles -->
+    <string name="supplier_overview">Supplier</string>
+    <string name="supplier_name_hint">Supplier Name</string>
+    <string name="phone_overview">Phone Number</string>
+    <string name="supplier_phone_hint">Phone</string>
+    <string name="call_supplier_button">Call</string>
+
+    <!-- Menu actions -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+
+    <!-- Delete dialog -->
+    <string name="delete_all_dialog_msg">Delete all products from database?</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="delete_successful">Delete successful</string>
+
+    <!-- Confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- App bar title product detail activity -->
+    <string name="detail_activity_title_new_product">Add new product</string>
+    <string name="detail_activity_title_edit_product">Edit product</string>
+    <string name="detail_activity_title_show_product">Product details</string>
+
+    <!-- Toast messages for saving -->
+    <string name="error_saving_product">Error saving product</string>
+    <string name="product_saved">Product saved successfully</string>
+
+    <!-- Toast message when all items are sold -->
+    <string name="all_items_sold">All items sold!</string>
+
+    <!-- Toast for empty editText fields -->
+    <string name="missing_name_msg">Product requires a name</string>
+    <string name="missing_supplier_name_msg">Supplier requires a name</string>
+    <string name="missing_phone_msg">Supplier requires a phone number</string>
+    <string name="wrong_price_msg">Product requires valid price</string>
+    <string name="wrong_quantity_msg">Product requires valid quantity</string>
+</resources>
